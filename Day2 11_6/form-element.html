@@ -1,35 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>form element</title>
-</head>
-<body>
-  <h1>html 폼 요소 이해하기</h1>
-  <br>
-  <form>
-    <label for="inputArea">Title : </label>
-    <input type="text" id="inputArea"><br>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form element</title>
+  </head>
+  <body>
+    <h1>html 폼 요소 이해하기</h1>
+    <br />
+    <form>
+      <label for="inputArea">Title : </label>
+      <input type="text" id="inputArea" /><br />
 
-    <label for="textArea">Content : </label>
-    <textarea id="textArea" rows="4" cols="30" placeholder="enter the text"></textarea><br>
+      <label for="textArea">Content : </label>
+      <textarea
+        id="textArea"
+        rows="4"
+        cols="30"
+        placeholder="enter the text"
+      ></textarea
+      ><br />
 
-    <label for="select">Emotion : </label>
-    <select id="select">
-      <option value="good">GOOD</option>
-      <option value="soso">SOSO</option>
-      <option value="bad">BAD</option>
-    </select><br>
+      <label for="select">Emotion : </label>
+      <select id="select">
+        <option value="good">GOOD</option>
+        <option value="soso">SOSO</option>
+        <option value="bad">BAD</option></select
+      ><br />
 
-    <input type="radio" id="defaultRadio">
-    <label for="defaultRadio">Default radio</label>
-    
-    <input type="radio" id="defaultCheckedRadio" checked>
-    <lable for="defaultCheckedRadio">Default checked radio</lable><br>
+      <input type="radio" id="defaultRadio" />
+      <label for="defaultRadio">Default radio</label>
 
-    <button type="button" id="submitButton">Submit</button>
-    
-  </form>
-</body>
+      <input type="radio" id="defaultCheckedRadio" checked />
+      <lable for="defaultCheckedRadio">Default checked radio</lable><br />
+
+      <button type="button" id="submitButton">Submit</button>
+    </form>
+  </body>
 </html>
