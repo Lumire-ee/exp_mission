@@ -1,0 +1,37 @@
+#contactTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+#contactTable>.tableHead>tr>th {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+}
+
+#contactTable>tbody>tr>th,
+#contactTable>tbody>tr>td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+#contactTable>tbody>tr:hover>td,
+#contactTable>tbody>tr:hover>th {
+  background-color: #f2f2f2;
+}
+
+#contactTable>tbody>tr>td>a {
+  color: #4CAF50;
+  text-decoration: none;
+  display: inline;
+}
+
+#contactTable>tbody>tr>td>a:hover {
+  text-decoration: underline;
+}
+
+#contactTable>tbody>tr:nth-child(3) {
+  display: none;
+}
